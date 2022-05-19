@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+.body {}
+
+/* header */
+.header {
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    margin: 0px 81px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_pic {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.nav {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.home {
+    padding: 0px 20px;
+    color: #7A7A7A;
+    text-decoration: none;
+}
+
+.home:hover {
+    color: #57A2F9;
+}
+
+.profile_ecl {
+    position: relative;
+}
+
+.profile {
+    position: absolute;
+    left: 39%;
+    top: 0.5%;
+}
+
+/* Main */
+.intro {
+    width: 100%;
+    height: 100vh;
+    background: url(cat.png) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+ .arrow{
+     position: absolute;
+     width: 85%;
+     top:47%;
+     display: flex;
+     justify-content: space-between;
+
+ }
+.circles {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 44px
+}
+
+.dark-ecl {
+    position: relative;
+}
+
+.dark-circle {
+    position: relative;
+    right: 52%;
+    top: -12%
+}
+
+.glass_text {
+    position: absolute;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-style: bold;
+    font-size: 58px;
+    line-height: 72px;
+    top: 71px;
+    left: 36%;
+}
+
+.discount {
+    position: absolute;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-style: bold;
+    font-size: 46px;
+    line-height: 54px;
+    top: 150px;
+    left: 43%;
+    color: #FFFFFF;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin: 43px;
+
+}
+
+.main_container {
+    width: 80%;
+}
+
+.main_section {
+    display: flex;
+    justify-content: space-around;
+    width: 1440px;
+    height: 500px;
+    left: 0px;
+    top: 853px
+}
+
+.section_conteiner {
+    width: 270px;
+    height: 370px;
+    left: 103px;
+    top: 957px;
+    margin: 104px 0px 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #FFFEFE;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sunglass1 {
+    margin: 40px;
+}
+
+.sunglasses {
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    width: 229px;
+    height: 54px;
+    left: 270px;
+    top: 1100px;
+}
+
+.sunglasses2 {
+    position: absolute;
+    width: 800px;
+    height: 54px;
+    left: 270px;
+    top: 1600px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+.sunglasses3 {
+    position: absolute;
+    width: 800px;
+    height: 54px;
+    left: 270px;
+    top: 2100px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+.buy_panel {
+    display: flex;
+    justify-content: center;
+}
+
+.add_cart {
+    color: #E7E3E3;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.heart-scr {
+    background-color: #E7E3E3;
+    width: 41px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark_panel {
+    background-color: #010101;
+    left: 40px;
+    height: 41px;
+    width: 116px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* Main */
+
+/* Footer */
+.footer{
+    background-color: #090808;
+    color:#FFFEFE;
+    width: 100%;
+    height: 260px;
+    display: flex;
+    justify-content: space-around;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.bold_title{
+    font-family: Poppins;
+    font-style: 700;
+    font-size: 18px;
+    line-height: 27px;
+}
+.phone_cont{
+    display: flex;
+}
+.phone,.phone1:not(:last-child){
+    margin:0px 15px 0px 0px;
+}
+.phone{
+    font-style: bold;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.cont2_cont{
+    display: flex;
+    justify-content: space-between;
+}
+.p1{
+    margin:0px 25px 0px 0px; 
+}
+.del_cont{
+    display: flex;
+}
